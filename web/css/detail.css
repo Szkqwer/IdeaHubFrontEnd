@@ -1,0 +1,34 @@
+.box{
+    margin: 1vmin auto;
+    background: lightblue;
+}
+.box button{
+    display: block;
+    float: right;
+    margin: 15px;
+}
+#my_textarea {
+    content: none;
+    margin: 2vmin;
+    width: 85vw;
+    height: 15vh;
+    outline: none;
+    font-size: 18px;
+    border-radius: 6px;
+}
+#reply {
+    margin: auto;
+}
+
+#reply li {
+    border-bottom: 1px dashed darkslateblue;
+    color: darkslateblue;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#reply li a {
+    color: darkslateblue;
+    float: right;
+    text-decoration: none;
+}
